@@ -1,0 +1,24 @@
+.Nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items to start and end of container */
+    position: relative; /* Set position to relative for absolute positioning */
+    /* Add any other styles for the .Nav container */
+  }
+  
+  .Nav .ButtonContainer {
+    position: absolute;
+    top: 72px;
+    left: 998px; /* Adjust the value as needed */
+    /* Other styles for positioning */
+  }
+  
+  .Nav .ButtonContainer .Button {
+    padding-left: 0; /* Remove padding-left */
+    /* Add other styles as needed */
+  }
+  .SignUpButtonContainer{
+    position: absolute;
+    left: 1146px;
+    top: 72px;  
+  }
+  
